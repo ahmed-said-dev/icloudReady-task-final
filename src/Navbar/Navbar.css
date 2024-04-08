@@ -1,0 +1,62 @@
+
+.person2
+{
+    position: absolute;
+    left: 22px;
+}
+.person3
+{
+    position: absolute;
+    left: 45px;
+}
+.person4
+{
+    position: absolute;
+    left: 67px;
+}
+.Vector
+{
+    position: absolute;
+    left: 88px;
+}
+.img_3
+{
+    position: absolute;
+    left: 124px;
+    top: 13px;
+}
+.Ellipse
+{
+    position: absolute;
+    left: 110px;
+    
+}
+
+#booking
+{
+color: #0097C2 !important;
+}
+
+.cart_img{
+    width: 40px ;
+    height: 40px;
+    margin-left: 140px;
+    border-radius:50px;
+    background: #E1ECF9;
+}
+.numbericon{
+    width: 18px;
+    height: 18px;
+    background: #FFD900;
+}
+.navbar {
+    min-height: 90px;
+    z-index: 999999999999999999999999999;
+}
+
+@media screen and (max-width : 800px) {
+    .navbar {
+        height: fit-content;
+    }
+    
+}

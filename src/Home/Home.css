@@ -1,0 +1,119 @@
+
+.container_home
+{
+   
+ background-color: linear-gradient(342.45deg, #97E0F3 -32.65%, #FFFFFF 85.43%) !important;
+/* overflow: hidden; */
+/* flex-wrap: nowrap;
+overflow-wrap: inherit; */
+overflow: hidden;
+
+}
+@media screen and (max-width: 700px) {
+    .container_home {
+        overflow-y: scroll;
+    }
+}
+
+.backgroundBlue
+{
+    position: absolute;
+    top: -33%;
+    left: 45%;
+    z-index: 0 !important;
+    width:809.09px ;
+    height:1584.18px;
+    background: linear-gradient(283.59deg, #00244D 26.1%, #1769C6 170.66%);
+    transform: rotate(35deg);
+    overflow: hidden;
+}
+
+/* #support{
+margin-top: 51px;} */
+#Support {
+    height: 100px;
+}
+.Support
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+opacity: 0.17;
+position: relative;
+}
+.menuBar{
+    width: 13.64px ;
+    background-color: #EBF4FF;
+    height: 1px;
+    border: 1.5px solid #EBF4FF;
+    position: absolute;
+    top: 20;
+
+}
+
+#card
+{
+    position: absolute ;
+    width: 100%;
+    z-index: 99;
+}
+
+#cardIcon
+{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0,0.3);
+    opacity: 0.8;
+    cursor: pointer;
+ 
+}
+#buttonIcon
+{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0,0.3);
+    opacity: 0.8;
+    cursor: pointer;
+   padding-bottom: 10px;
+   border: none;
+   color: white;
+}
+
+#Customer
+{
+    background-color: #0A488F;
+    height: 173px;
+}
+#Actionable
+{
+    background-color: #579064;
+    height: 173px;
+}
+#Employees
+{
+    background-color: #950000;
+    height: 173px;
+}
+#Operations
+{
+    background-color: #8F6C0A;
+    height: 173px;
+}
+
+p span{
+    color: #0097C2;
+}
+
+
+ #Support h3
+{
+    color: #0097C2;
+    
+}
+
+.footer {
+position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
